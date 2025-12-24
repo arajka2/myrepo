@@ -1,0 +1,10 @@
+streamlit
+langchain   
+langchain-community   
+faiss-cpu
+python-dotenv
+sqlalchemy
+pyodbc 
+  
+ollama #done  NAME              ID              SIZE      MODIFIED
+mistral:latest    6577803aa9a0    4.4 GB    18 seconds ago

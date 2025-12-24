@@ -1,0 +1,103 @@
+[
+  {
+    "table_name": "animal_tourists_revenue_report_yearwise",
+    "table_description": "Year-wise report capturing wildlife population, tourist visits, and revenue generated from animal-focused tourism areas.",
+    "columns": {
+      "focus_area": "Designated thematic or administrative focus area for the wildlife and tourism data.",
+      "year": "Calendar year for which the data is recorded.",
+      "number_of_mammals": "Total count of mammal species recorded in the focus area for the given year.",
+      "number_of_birds": "Total count of bird species recorded in the focus area for the given year.",
+      "number_of_reptiles": "Total count of reptile species recorded in the focus area for the given year.",
+      "total_number_of_animals": "Aggregate count of all animal species recorded in the focus area.",
+      "number_of_tourists_visited": "Total number of tourists who visited the focus area in the given year.",
+      "revenue_in_rupees": "Total revenue generated in Indian rupees from tourism activities.",
+      "place_name": "Name of the wildlife location or tourist site."
+    }
+  },
+  {
+    "table_name": "bihar_forest_cover_geospatial_analysis_district_wise",
+    "table_description": "District-wise geospatial analysis of forest cover in Bihar, including forest density classification and temporal change.",
+    "columns": {
+      "district_name": "Name of the district in Bihar.",
+      "year": "Year for which forest cover data is reported.",
+      "calculated_area_soi_in_sq_km": "Total surveyed geographical area based on Survey of India calculations in square kilometers.",
+      "very_dense_forest_in_sq_km": "Area covered by very dense forest in square kilometers.",
+      "moderately_dense_forest_in_sq_km": "Area covered by moderately dense forest in square kilometers.",
+      "open_forest_in_sq_km": "Area covered by open forest in square kilometers.",
+      "total_forest_in_sq_km": "Total forest area combining all forest density categories.",
+      "soi_in_percentage": "Percentage of forest area with respect to the total surveyed area.",
+      "change_wrt_2021_in_percentage": "Percentage change in forest cover compared to the year 2021.",
+      "scrub_in_sq_km": "Area classified as scrub land in square kilometers.",
+      "focus_area": "Thematic or policy focus area associated with the forest analysis."
+    }
+  },
+  {
+    "table_name": "bihar_forest_cover_with_respect_to_national_forest_cover",
+    "table_description": "Comparison of Bihar's forest cover with national forest statistics, categorized by forest ownership and protection type.",
+    "columns": {
+      "state_name": "Name of the state, primarily Bihar.",
+      "geographical_area_in_km2": "Total geographical area of the state in square kilometers.",
+      "reserved_forest_in_km2": "Area designated as reserved forest in square kilometers.",
+      "protected_forest_in_km2": "Area designated as protected forest in square kilometers.",
+      "unclassed_forest_in_km2": "Forest area not classified under reserved or protected categories.",
+      "total_rfa_in_km2": "Total recorded forest area in square kilometers.",
+      "percentage_of_ga": "Percentage of forest area relative to the total geographical area.",
+      "year": "Year for which the forest statistics are reported.",
+      "focus_area": "Analytical or policy focus area for national forest comparison."
+    }
+  },
+  {
+    "table_name": "forest_area_report_district_wise",
+    "table_description": "District-wise annual report of forest area measured in hectares.",
+    "columns": {
+      "district_name": "Name of the district.",
+      "forest_area_in_hectare": "Total forest area of the district measured in hectares.",
+      "year": "Year of the forest area assessment.",
+      "focus_area": "Relevant focus area associated with forest reporting."
+    }
+  },
+  {
+    "table_name": "nursery_report_district_wise",
+    "table_description": "District-wise report on forest nurseries and availability of plants.",
+    "columns": {
+      "region_name": "Administrative or ecological region name.",
+      "district_name": "Name of the district.",
+      "total_number_of_nursery": "Total number of nurseries operating in the district.",
+      "total_number_of_available_plants": "Total count of plants available across all nurseries.",
+      "year": "Year for which nursery data is recorded.",
+      "focus_area": "Policy or operational focus area related to nursery management."
+    }
+  },
+  {
+  "table_name": "recorded_forest_area_report_state_wise",
+  "table_description": "State-wise report of recorded forest area, categorized by forest classification and expressed relative to total geographical area.",
+  "columns": {
+    "state_name": "Name of the state for which forest area data is recorded.",
+    "geographical_area_in_km2": "Total geographical area of the state measured in square kilometers.",
+    "reserved_forest_in_km2": "Area designated as reserved forest in square kilometers.",
+    "protected_forest_in_km2": "Area designated as protected forest in square kilometers.",
+    "unclassed_forest_in_km2": "Forest area not classified under reserved or protected categories.",
+    "total_rfa_in_km2": "Total recorded forest area in square kilometers.",
+    "percentage_of_ga": "Percentage of recorded forest area relative to the total geographical area.",
+    "year": "Year for which the recorded forest area statistics are reported.",
+    "focus_area": "Policy or analytical focus area associated with the forest area report."
+  }
+},
+{
+  "table_name": "recorded_forest_area_report_state_wise",
+  "table_description": "State-wise report of recorded forest area, categorized by forest classification and expressed relative to total geographical area.",
+  "columns": {
+    "state_name": "Name of the state for which forest area data is recorded.",
+    "geographical_area_in_km2": "Total geographical area of the state measured in square kilometers.",
+    "reserved_forest_in_km2": "Area designated as reserved forest in square kilometers.",
+    "protected_forest_in_km2": "Area designated as protected forest in square kilometers.",
+    "unclassed_forest_in_km2": "Forest area not classified under reserved or protected categories.",
+    "total_rfa_in_km2": "Total recorded forest area in square kilometers.",
+    "percentage_of_ga": "Percentage of recorded forest area relative to the total geographical area.",
+    "year": "Year for which the recorded forest area statistics are reported.",
+    "focus_area": "Policy or analytical focus area associated with the forest area report."
+  }
+}
+
+
+]
