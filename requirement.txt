@@ -6,5 +6,6 @@ python-dotenv
 sqlalchemy
 pyodbc 
   
-ollama #done  NAME              ID              SIZE      MODIFIED
-mistral:latest    6577803aa9a0    4.4 GB    18 seconds ago
+ollama
+
+mistral
